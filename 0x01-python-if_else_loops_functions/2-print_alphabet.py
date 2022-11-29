@@ -1,10 +1,6 @@
 #!/usr/bin/python3
+# 2-print_alphabet.py
 
-
-def print_low_alpha():
-    for c in 'abcdefghijklmnopqrstuvwxyz':
-         print('{}'.format(c), end='')
-
-         if __name__ == '__main__':
-              print_low_alpha()
-
+"""Print the alphabet in lowercase, not followed by a new line."""
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
